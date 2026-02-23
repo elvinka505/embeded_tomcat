@@ -1,6 +1,7 @@
 package ru.itis.dis403.lab_01.di.component;
 
-import ru.itis.dis403.lab_01.di.annotation.Component;
+// import ru.itis.dis403.lab_01.di.annotation.Component;
+import org.springframework.stereotype.Component;
 import ru.itis.dis403.lab_01.di.model.Fruit;
 import ru.itis.dis403.lab_01.di.model.FruitType;
 import ru.itis.dis403.lab_01.di.model.Store;
@@ -8,9 +9,7 @@ import ru.itis.dis403.lab_01.di.model.Store;
 @Component
 public class Application {
 
-    //@Inject
-    private StoreService service;
-
+    private final StoreService service;
     public Application(StoreService service) {
         this.service = service;
     }

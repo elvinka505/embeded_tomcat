@@ -1,15 +1,20 @@
 package ru.itis.dis403.lab_01.di.component;
 
-import ru.itis.dis403.lab_01.di.annotation.Component;
+// import ru.itis.dis403.lab_01.di.annotation.Component;
 import ru.itis.dis403.lab_01.di.model.Basa;
 import ru.itis.dis403.lab_01.di.model.Fruit;
 import ru.itis.dis403.lab_01.di.model.FruitType;
 import ru.itis.dis403.lab_01.di.model.Store;
 import java.util.List;
 
-@Component
+// @Component
 public class StoreService {
-    private Basa basa = new Basa();
+
+    // private Basa basa = new Basa();
+    private final Basa basa;
+    public StoreService(Basa basa) {
+        this.basa = basa;
+    }
 
     public void add(String name) {
         basa.getStores().add(new Store(name));

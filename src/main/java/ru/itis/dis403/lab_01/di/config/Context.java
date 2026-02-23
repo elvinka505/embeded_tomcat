@@ -1,5 +1,5 @@
 package ru.itis.dis403.lab_01.di.config;
-
+/*
 import java.lang.reflect.Constructor;
 import java.util.HashMap;
 import java.util.List;
@@ -104,3 +104,4 @@ public class Context {
     }
 
 }
+ */

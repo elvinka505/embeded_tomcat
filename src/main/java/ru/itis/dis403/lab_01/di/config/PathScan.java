@@ -1,5 +1,5 @@
 package ru.itis.dis403.lab_01.di.config;
-
+/*
 import ru.itis.dis403.lab_01.di.annotation.Component;
 import ru.itis.dis403.lab_01.di.annotation.Controller;
 
@@ -85,3 +85,4 @@ public class PathScan {
     }
 
 }
+ */

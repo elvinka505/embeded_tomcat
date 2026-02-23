@@ -2,7 +2,8 @@ package ru.itis.dis403.lab_01.di.controller;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import ru.itis.dis403.lab_01.di.annotation.Controller;
+// import ru.itis.dis403.lab_01.di.annotation.Controller;
+import org.springframework.stereotype.Controller;
 import ru.itis.dis403.lab_01.di.annotation.GetMapping;
 
 import java.io.IOException;
